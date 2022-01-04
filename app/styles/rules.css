@@ -1,0 +1,23 @@
+.rules {
+
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond&display=swap');
+
+@font-face {
+  font-family: 'Chomsky';
+  src: local('Chomsky'), url(../../fonts/chomsky/Chomsky.otf) format('opentype');
+}
+
+.RuleSet > h3 {
+  font-family: Chomsky, Arial;
+}
+
+.RuleSet > ol > li {
+  font-family: 'Cormorant Garamond', serif;
+  color: blue;
+}
+
+.RuleSet {
+  padding-left: 30px;
+}
